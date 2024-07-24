@@ -1,0 +1,72 @@
+/* <uniquifier>: Use a unique and descriptive class name*/
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 1440px)  {
+  .courtier__content {
+    display:grid !important;
+    justify-content: center;
+    row-gap: .75rem;
+    background-color:  hsl(0, 0%, 8%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+    margin: 30px;
+    padding: 50px;
+    ;
+
+
+   
+    
+  }
+}
+
+img{
+  height: auto;
+  border-radius: 50%;
+  justify-self: center;
+  margin: 10px
+  
+}
+h1{
+    color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+    text-align: center;
+    margin: -15px;
+}
+h2{
+    color:hsl(75, 94%, 57%);
+    text-align: center;
+   
+}
+h3{
+    color: hsl(0, 0%, 100%);
+     text-align: center;
+     margin-top: -15px;
+}
+.link{
+  height: 40px;
+  background-color:  hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%); 
+  font-weight: bolder;
+  border-radius: 2cap;
+}
+.link:hover{
+  color: hsl(75, 94%, 57%);
+  background-color:  hsl(0, 0%, 30%);
+}
+.link:active{
+ background-color: hsl(0, 0%, 100%);
+  
+}
+.attribution{
+  color: blue;
+  font-size: 20px;
+}
